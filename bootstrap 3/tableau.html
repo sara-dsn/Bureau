@@ -16,38 +16,55 @@
 
 <body>
   
-    <header>
-        <img class="img-fluid" src="asset/img/jarditou_logo.jpg" alt="jarditou_logo">
-        <p >Tout le jardin</p>
-    </header>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Acceuil</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="tableau.html">Tableau</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="formulaire.html">Formulaire</a>
-                </li>
+    <div class="container-fluid">
+        <header>
 
-            </ul>
-        </div>
-     </nav>
-    <img src="asset/img/promotion.jpg" alt="promotion.jarditou" class="img-fluid"><br>
+            <div class="row w-100 d-flex ">
+                
+                    <div class="col-3">
+                        <img class="img-fluid img-sm-fade " src="asset/img/jarditou_logo.jpg" alt="Logo.Jarditou">
+                    </div>
+                       
+                            <p class="text-right h3  col-9 pt-5">Tout le jardin</p>
+                   
+              
+            </div>
+
+        </header>
+
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+            <a class="navbar-brand">Jarditou.com</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Acceuil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tableau.html">Tableau</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="formulaire.html">Formulaire</a>
+                    </li>
+
+                </ul>
+            </div>
+            
+            <input class="form-control col-2 " type="search" placeholder="Votre promotion" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+       
+        </nav>
+        <img class="img-fluid w-100" src="asset/img/promotion.jpg" alt="Promotion.Jarditou"><br>
 <div class="table-responsive">
-    <table class="table table-striped table-hover table-bordered" >
-        <h1>Tableau</h1>
+    <table class="table table-striped table-hover table-bordered " >
+      
         <section>
          
-            <thead>
-                <tr>
-                    <th>Photo</th>
+            <thead class="table-secondary h5">
+                <tr >
+                    <th class="col-3">Photo</th>
                     <th>ID</th>
                     <th>Catégorie</th>
                     <th>Libellé</th>
@@ -56,8 +73,8 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td><img class="achat" src="asset/img/7.jpg" alt="Barbecue.aramis"></td>
+                <tr class="table-warning">
+                    <td><img class="img-fluid w-25" src="asset/img/7.jpg" alt="Barbecue.aramis"></td>
                     <td>7</td>
                     <td>Barbecues</td>
                     <td>Aramis</td>
@@ -65,15 +82,15 @@
                     <td>brun</td>
                 </tr>
                 <tr>
-                    <td><img class="achat" src="asset/img/8.jpg" alt="barbecue.athos"></td>
+                    <td><img class="img-fluid w-50" src="asset/img/8.jpg" alt="barbecue.athos"></td>
                     <td>8</td>
                     <td>Barbecues</td>
                     <td>Athos</td>
                     <td>249.99€</td>
                     <td>Noir</td>
                 </tr>
-                <tr>
-                    <td><img class="achat" src="asset/img/11.jpg" alt="Barbecue.claronic"></td>
+                <tr class="table-warning">
+                    <td><img class="img-fluid w-50" src="asset/img/11.jpg" alt="Barbecue.claronic"></td>
                     <td>11</td>
                     <td>Barbecues</td>
                     <td>Claronic</td>
@@ -81,15 +98,15 @@
                     <td>Chrome</td>
                 </tr>
                 <tr>
-                    <td><img class="achat" src="asset/img/12.jpg" alt="Barbecue.de.camping"></td>
+                    <td><img class="img-fluid w-50" src="asset/img/12.jpg" alt="Barbecue.de.camping"></td>
                     <td>12</td>
                     <td>Barbecues</td>
                     <td>Camping</td>
                     <td>88.00€</td>
                     <td>Noir</td>
                 </tr>
-                <tr>
-                    <td><img class="achat" src="asset/img/13.jpg" alt="Brouette"></td>
+                <tr class="table-warning">
+                    <td><img class="img-fluid w-50" src="asset/img/13.jpg" alt="Brouette"></td>
                     <td>13</td>
                     <td>Brouette</td>
                     <td>Green</td>
@@ -100,7 +117,7 @@
         </section>
     </table>
     
-    <aside class="box" id="un">[COLONNE DROITE]</aside>
+ 
 </div>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
